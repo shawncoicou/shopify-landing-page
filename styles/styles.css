@@ -1,0 +1,33 @@
+#section-clients img {
+    width: 80px;
+    margin: 2rem 4px;
+}
+
+#section-testimonials {
+    margin-top: 3rem;
+}
+#section-testimonials > button {
+    margin-top: 3rem;
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+footer ul li {
+    color: var(--purple);
+    font-size: 10px;
+    list-style: none;
+    cursor: pointer;
+}

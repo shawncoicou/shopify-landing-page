@@ -1,0 +1,42 @@
+#section-articles {
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+@media (max-width: 80px) {
+    #section-articles {
+        flex-direction: column;
+    }
+}
+
+
+#section-articles > article {
+    padding: 40px;
+}
+
+#section-articles > article img {
+    width: 40px;
+}
+
+#articles > article h4 {
+    font-size: 12px;
+}
+
+#section > article p {
+    color: var(--gray-light);
+    padding: 12px 0;
+}
+
+hr {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media ( max-width: 800px) {
+    hr {
+        width: 200px;
+    }
+}
+ 
